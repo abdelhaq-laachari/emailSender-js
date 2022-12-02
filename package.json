@@ -1,0 +1,32 @@
+{
+  "name": "email-template",
+  "version": "0.0.1",
+  "description": "this is package for making send email with nodemailer more easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdelhaq-laachari/email-template"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "js",
+    "nodemailer",
+    "javaScript",
+    "Youcode",
+    "Robert Noyce"
+  ],
+  "author": "Abdelhaq laachari (Also know as Godfather)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdelhaq-laachari/email-template/issues"
+  },
+  "homepage": "https://github.com/abdelhaq-laachari/email-template#readme",
+  "dependencies": {
+    "nodemailer": "^6.8.0"
+  }
+}
