@@ -3,19 +3,20 @@ const handlebars = require("handlebars");
 const { promisify } = require("util");
 const fs = require("fs");
 const readFile = promisify(fs.readFile);
-const authEmail = process.env.EMAIL;
-const authPassword = process.env.PASS;
-const templatePath = process.env.templatePath;
+// const authEmail = process.env.EMAIL;
+// const authPassword = process.env.PASS; 
+// const templatePath = process.env.templatePath;
 
-const transporter = nodemailer.createTransport({
-  service: "gmail",
-  auth: {
-    user: authEmail,
-    pass: authPassword,
-  },
-});
+exports.sendMails = async (email, fullName, authEmail, authPassword, templatePath) => {
 
-exports.sendMails = async (email, fullName) => {
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: authEmail,
+      pass: authPassword,
+    },
+  });
+
   let html = await readFile(templatePath, "utf8");
   let template = handlebars.compile(html);
   let data = {
@@ -28,7 +29,5 @@ exports.sendMails = async (email, fullName) => {
     subject: "NamX Auto",
     html: htmlToSend,
   };
-  transporter.sendMail(mailOptions, (error, info) => {
-    if (error) console.log(error);
-  });
+  transporter.sendMail(mailOptions);
 };

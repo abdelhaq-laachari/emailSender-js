@@ -1,0 +1,1 @@
+const sendMails = require('./template/controller/email')
