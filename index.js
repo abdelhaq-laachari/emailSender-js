@@ -1,1 +1,5 @@
-const sendMails = require('./template/controller/email')
+const sendMails = require("./template/controller/email");
+
+module.exports = {
+  sendMails,
+};

@@ -3,11 +3,9 @@ const handlebars = require("handlebars");
 const { promisify } = require("util");
 const fs = require("fs");
 const readFile = promisify(fs.readFile);
-// const authEmail = process.env.EMAIL;
-// const authPassword = process.env.PASS; 
-// const templatePath = process.env.templatePath;
+const templatePath = "../Email-template/template/view/email.hbs";
 
-exports.sendMails = async (email, fullName, authEmail, authPassword, templatePath) => {
+const sendMails = async (email, fullName, authEmail, authPassword) => {
 
   const transporter = nodemailer.createTransport({
     service: "gmail",
@@ -31,3 +29,5 @@ exports.sendMails = async (email, fullName, authEmail, authPassword, templatePat
   };
   transporter.sendMail(mailOptions);
 };
+
+module.exports = sendMails;
