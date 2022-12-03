@@ -65,6 +65,6 @@ And all you have to do is call the function and pass the parameters you want.
 ## License
 
 
-The [MIT] License (MIT)
+The MIT License 
 
 Copyright (c) 2022 Abdelhaq Laachari
