@@ -58,7 +58,7 @@ And all you have to do is call the function and pass the parameters you want.
 <br/>
 <!-- medium icon -->
 <a href="https://medium.com/@abdelhaqlaachari" target="_blank">
-  <img src="https://img.shields.io/badge/-Abdelhaq%20Laachari-black?style=flat-square&logo=Medium&logoColor=white&link=https://medium.com/@abdelhaqlaachari" alt="Abdelhaq Laachari" />
+  <img src="https://img.shields.io/badge/-Abdelhaq%20Laachari-green?style=flat-square&logo=Medium&logoColor=white&link=https://medium.com/@abdelhaqlaachari" alt="Abdelhaq Laachari" />
 </a>
 
 
