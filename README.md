@@ -35,12 +35,13 @@ const { sendMail } = require("emailsender-js");
 Then, you can use the email sender function to email the email template you want.
 
 ```js
-const email = sendMail(email, fullName, authEmail, authPassword);
+const email = sendMail(email, subject, fullName, authEmail, authPassword);
 ```
 
 This function takes 4 parameters:
 
 - email: the email of the user you want to send the email to.
+- subject: the subject of the email.
 - fullName: the full name of the user you want to send the email to.
 - authEmail: this email you will use it for two things:
   - you will use it as sender address.
