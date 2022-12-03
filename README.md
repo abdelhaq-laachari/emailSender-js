@@ -52,12 +52,15 @@ And all you have to do is call the function and pass the parameters you want.
 👤 **Abdelhaq laachari** : I'm a Full stack javascript student based in Morocco, I'm 23 years. As a passionate developer who adores code, open source, and the web platform, that is how I would characterize myself. In addition to studying, I enjoy making and contributing to open source projects. That enables me to pick up a ton of fresh knowledge, progress as a developer, and assist other open source initiatives. I also like to write about technological topics on my blog.
 
 <!-- linkedin icon -->
-<a href="https://www.linkedin.com/in/abdelhaq-laachari-1a1a9b1b3/" target="_blank">
-  <img src="https://img.shields.io/badge/-Abdelhaq%20Laachari-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/abdelhaq-laachari-1a1a9b1b3/" alt="Abdelhaq Laachari" />
+<a href="https://www.linkedin.com/in/abdelhaq-laachari/" target="_blank">
+  <img src="https://img.shields.io/badge/-Abdelhaq%20Laachari-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/abdelhaq-laachari/" alt="Abdelhaq Laachari" />
 </a>
-linkedin: [@Abdelhaq Laachari](https://www.linkedin.com/in/abdelhaq-laachari/)
 <br/>
-medium: [@Abdelhaq Laachari](https://medium.com/@abdelhaqlaachari)
+<!-- medium icon -->
+<a href="https://medium.com/@abdelhaqlaachari" target="_blank">
+  <img src="https://img.shields.io/badge/-Abdelhaq%20Laachari-black?style=flat-square&logo=Medium&logoColor=white&link=https://medium.com/@abdelhaqlaachari" alt="Abdelhaq Laachari" />
+</a>
+
 
 ## License
 
