@@ -1,7 +1,7 @@
 {
   "name": "emailsender-js",
   "version": "0.0.1",
-  "description": "this is package for making send email with nodemailer more easy",
+  "description": "This package makes using Nodemailer to send emails more easy.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
