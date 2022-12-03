@@ -1,4 +1,4 @@
-<h1>Email template</h1>
+<h1>Email sender</h1>
 
 ## Table Of Content
 
@@ -17,27 +17,29 @@ All you have to do is install the email-template package, and you instantly have
 ## Installation
 
 ```
-npm install email-template
+npm install email-sender
 ```
 
 ```sh
-yarn add email-template
+yarn add email-sender
 ```
 
 ## Usage
 
-First of all, you need to import the email template function from the package.
+First of all, you need to import the email sender function from the package.
 
 ```js
-const { emailTemplate } = require("email-template");
+const { sendMail } = require("email-sender");
 ```
 
-Then, you can use the emailTemplate function to generate the email template you want.
+Then, you can use the email sender function to email the email template you want.
 
 ```js
-const email = sendMail(email, fullName, authEmail, authPassword)
+const email = sendMail(email, fullName, authEmail, authPassword);
 ```
+
 This function takes 4 parameters:
+
 - email: the email of the user you want to send the email to.
 - fullName: the full name of the user you want to send the email to.
 - authEmail: this email you will use it for two things:
@@ -61,10 +63,8 @@ And all you have to do is call the function and pass the parameters you want.
   <img src="https://img.shields.io/badge/-Abdelhaq%20Laachari-green?style=flat-square&logo=Medium&logoColor=white&link=https://medium.com/@abdelhaqlaachari" alt="Abdelhaq Laachari" />
 </a>
 
-
 ## License
 
-
-The MIT License 
+The MIT License
 
 Copyright (c) 2022 Abdelhaq Laachari

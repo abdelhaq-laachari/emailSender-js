@@ -1,5 +1,5 @@
 {
-  "name": "email-template",
+  "name": "email-sender",
   "version": "0.0.1",
   "description": "this is package for making send email with nodemailer more easy",
   "main": "index.js",
