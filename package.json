@@ -1,6 +1,6 @@
 {
   "name": "emailsender-js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This package makes using Nodemailer to send emails more easy.",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,8 @@
     "url": "https://github.com/abdelhaq-laachari/email-template"
   },
   "keywords": [
-    "node",
-    "js",
-    "express",
-    "js",
+    "node js",
+    "express js",
     "nodemailer",
     "javaScript",
     "Youcode",
@@ -25,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/abdelhaq-laachari/email-template/issues"
   },
-  "homepage": "https://github.com/abdelhaq-laachari/email-template#readme",
+  "homepage": "https://github.com/abdelhaq-laachari/",
   "dependencies": {
     "fs": "^0.0.1-security",
     "handlebars": "^4.7.7",
