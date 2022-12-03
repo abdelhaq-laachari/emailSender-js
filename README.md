@@ -17,11 +17,11 @@ All you have to do is install the email-template package, and you instantly have
 ## Installation
 
 ```
-npm install email-sender
+npm install emailSender-js
 ```
 
 ```sh
-yarn add email-sender
+yarn add emailSender-js
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ yarn add email-sender
 First of all, you need to import the email sender function from the package.
 
 ```js
-const { sendMail } = require("email-sender");
+const { sendMail } = require("emailSender-js");
 ```
 
 Then, you can use the email sender function to email the email template you want.
