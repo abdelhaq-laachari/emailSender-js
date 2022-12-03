@@ -5,7 +5,7 @@ const fs = require("fs");
 const readFile = promisify(fs.readFile);
 const templatePath = "../Email-template/template/view/email.hbs";
 
-const sendMails = async (email, fullName, authEmail, authPassword) => {
+const sendMail = async (email, fullName, authEmail, authPassword) => {
 
   const transporter = nodemailer.createTransport({
     service: "gmail",
@@ -30,4 +30,4 @@ const sendMails = async (email, fullName, authEmail, authPassword) => {
   transporter.sendMail(mailOptions);
 };
 
-module.exports = sendMails;
+module.exports = sendMail;
